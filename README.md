@@ -1,9 +1,22 @@
 # hello-world-API
 
-The Assignment:
+My Assignment:
 
-Please create a simple "Hello World" API. Meaning:
+1. It should be a RESTful JSON API that listens on a port 3000 (staging) and 5000 (production).
 
-1. It should be a RESTful JSON API that listens on a port of your choice. 
+2. When someone posts anything to the route /hello, it returns a welcome message, in JSON format. 
 
-2. When someone posts anything to the route /hello, you should return a welcome message, in JSON format. This message can be anything you want. 
+  {
+    "message": "Hello my friend",
+    "students":[
+        {
+          "name"    :   "Daniel",
+          "surname" :   "Pizarro"
+        },
+        {
+          "name": "John",
+          "surname": "Doe"
+        }
+     ]
+}
+
